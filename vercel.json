@@ -4,14 +4,5 @@
       "runtime": "vercel-php@0.7.1",
       "maxDuration": 30
     }
-  },
-  "env": {
-    "SMTP_HOST": "smtp.163.com",
-    "SMTP_PORT": "587",
-    "SMTP_SECURE": "false",
-    "SMTP_USER": "13718631751@163.com",
-    "SMTP_PASS": "6057318491",
-    "RECIPIENT_EMAIL": "wxuns@qq.com",
-    "CC_EMAIL": ""
   }
 }
