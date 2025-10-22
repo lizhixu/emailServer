@@ -6,12 +6,12 @@
     }
   },
   "env": {
-    "SMTP_HOST": "@smtp_host",
-    "SMTP_PORT": "@smtp_port",
-    "SMTP_SECURE": "@smtp_secure",
-    "SMTP_USER": "@smtp_user",
-    "SMTP_PASS": "@smtp_pass",
-    "RECIPIENT_EMAIL": "@recipient_email",
-    "CC_EMAIL": "@cc_email"
+    "SMTP_HOST": "smtp.163.com",
+    "SMTP_PORT": "587",
+    "SMTP_SECURE": "false",
+    "SMTP_USER": "13718631751@163.com",
+    "SMTP_PASS": "6057318491",
+    "RECIPIENT_EMAIL": "wxuns@qq.com",
+    "CC_EMAIL": ""
   }
 }
