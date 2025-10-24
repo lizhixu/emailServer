@@ -34,26 +34,26 @@ function getEmailTemplate() {
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f4f4f4; }
         .container { max-width: 800px; margin: 20px auto; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; }
+        .header { background: #003366; color: white; padding: 30px; text-align: center; }
         .header h1 { margin: 0; font-size: 28px; }
         .header p { margin: 5px 0 0 0; opacity: 0.9; }
         .content { padding: 30px; }
         .section { margin-bottom: 30px; }
-        .section h2 { color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px; margin-bottom: 20px; }
+        .section h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 10px; margin-bottom: 20px; }
         .customer-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
         .info-item { margin-bottom: 15px; }
         .info-item label { display: block; font-weight: bold; color: #555; margin-bottom: 5px; }
         .info-item span { color: #333; }
-        .product-item { background: #f9f9f9; border-left: 4px solid #667eea; padding: 20px; margin-bottom: 15px; border-radius: 0 8px 8px 0; }
+        .product-item { background: #f9f9f9; border-left: 4px solid #003366; padding: 20px; margin-bottom: 15px; border-radius: 0 8px 8px 0; }
         .product-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; }
         .product-name { font-size: 20px; font-weight: bold; color: #333; }
         .product-pricing { display: flex; gap: 15px; flex-wrap: wrap; }
-        .price-badge { background: #667eea; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
-        .price-badge.quantity { background: #28a745; }
-        .price-badge.total { background: #dc3545; }
+        .price-badge { background: #003366; color: white; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
+        .price-badge.quantity { background: #003366; }
+        .price-badge.total { background: #003366; }
         .product-specs { color: #666; font-style: italic; }
-        .total-section { background: #f0f4ff; padding: 20px; border-radius: 8px; text-align: right; border: 2px solid #667eea; }
-        .total-amount { font-size: 24px; font-weight: bold; color: #667eea; }
+        .total-section { background: #f0f4ff; padding: 20px; border-radius: 8px; text-align: right; border: 2px solid #003366; }
+        .total-amount { font-size: 24px; font-weight: bold; color: #003366; }
         .notes { background: #fff3cd; border: 1px solid #ffeaa7; padding: 20px; border-radius: 8px; }
         .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #666; font-size: 12px; }
         @media (max-width: 600px) {
